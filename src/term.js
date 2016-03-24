@@ -3510,7 +3510,7 @@ Terminal.prototype.deviceStatus = function(params) {
           + (this.y + 1)
           + ';'
           + (this.x + 1)
-          + 'R');
+          + '');
         break;
     }
   } else if (this.prefix === '?') {
